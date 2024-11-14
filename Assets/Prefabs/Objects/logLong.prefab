@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 481016}
   - component: {fileID: 3302272}
   - component: {fileID: 2337420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: log
-  m_TagString: Untagged
+  m_TagString: Log
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,9 +95,9 @@ GameObject:
   - component: {fileID: 6514000}
   - component: {fileID: 11445628}
   - component: {fileID: 2346526025461974959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: logLong
-  m_TagString: Untagged
+  m_TagString: Log
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   moveDirection: 0
-  parentOnTrigger: 1
+  parentOnTrigger: 0
   hitBoxOnTrigger: 0
   moverObject: {fileID: 144358}
 --- !u!114 &2346526025461974959

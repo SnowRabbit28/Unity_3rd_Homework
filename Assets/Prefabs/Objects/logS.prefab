@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 469776}
   - component: {fileID: 3357790}
   - component: {fileID: 2339182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: logS
-  m_TagString: Untagged
+  m_TagString: Log
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

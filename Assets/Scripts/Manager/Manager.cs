@@ -98,7 +98,6 @@ public class Manager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Create Item");
             var newObj = Instantiate(pools.Find(x => x.id == id).prefab);
             newObj.SetActive(false);
             poolDict[id].Enqueue(newObj);

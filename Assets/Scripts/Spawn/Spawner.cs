@@ -52,7 +52,6 @@ public class Spawner : MonoBehaviour
 
     void SpawnItem()
     {
-        Debug.Log("Spawn Item");
         GameObject obj = Manager.instance.SpawnFromPool(Item.id);
         obj.transform.position = GetSpawnPosition();
 
